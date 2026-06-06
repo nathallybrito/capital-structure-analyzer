@@ -22,25 +22,6 @@ A Estrutura de Capital refere-se à forma como uma empresa financia seus ativos,
 4. **Otimização**: Encontra a estrutura de capital ótima usando otimização numérica
 5. **Geração de Relatórios**: Relatórios em PDF e CSV com gráficos e análises
 
-## Estrutura do Projeto
-
-```
-capital-structure-analyzer/
-├── README.md                 # Este arquivo
-├── requirements.txt          # Dependências Python
-├── data/
-│   └── companies_data.csv    # Dados das empresas (exemplo)
-├── src/
-│   ├── __init__.py
-│   ├── main.py              # Entrada principal
-│   ├── data_capture.py      # Captura de dados
-│   ├── capital_structure.py # Cálculos de estrutura de capital
-│   ├── wacc_calculator.py   # Cálculo do WACC
-│   ├── prediction.py        # Algoritmo de previsão (regressão)
-│   ├── optimization.py      # Otimização da estrutura de capital
-│   └── report_generator.py  # Geração de relatórios
-└── reports/                 # Relatórios gerados
-```
 
 ## Algoritmos Implementados
 
@@ -126,8 +107,8 @@ Empresa B,2000000,800000,1200000,400000,0.34
 - Recomendações de restruturação
 
 ## Autores
-
-Trabalho 2 - Administração Financeira (CAD 167)
+Clara Garcia Tavares - Náthally Fernandes de Brito Oliveira
+Trabalho 2 - Administração Financeira 
 Disciplina: Administração Financeira
 Professor: Bruno Pérez Ferreira
-UFMG - Faculdade de Ciências Econômicas - 2026
+UFMG -  2026
