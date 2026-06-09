@@ -156,7 +156,7 @@ class MenuPrincipal:
             return
 
         try:
-            indice = int(input("\nDigite o número da empresa para otimizar: "))
+            indice = int(input("\nDigite o número da empresa para otimizar [0 - n]: "))
             empresa = self.data_capture.empresas[indice]
         except (ValueError, IndexError):
             print("❌ Índice inválido.")
@@ -214,7 +214,7 @@ class MenuPrincipal:
             return
 
         try:
-            indice = int(input("\nDigite o número da empresa: "))
+            indice = int(input("\nDigite o número da empresa [0 - n]: "))
             empresa = self.data_capture.empresas[indice]
         except (ValueError, IndexError):
             print("❌ Índice inválido.")

@@ -6,4 +6,4 @@ Pacote para análise e otimização de estrutura de capital de empresas.
 """
 
 __version__ = "1.0.0"
-__author__ = "Estudantes de Sistemas de Informação"
+__author__ = "Clara Garcia Tavares e Náthally Fernandes de Brito Oliviera"
